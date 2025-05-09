@@ -1,0 +1,129 @@
+#countdown {
+    color: #2c3e50; 
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#loader {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#cards {
+    display: none;
+}
+
+.loader-con {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+.list-group-item {
+    background: linear-gradient(135deg, #a8dadc, #f1faee); 
+    color: #1d3557;
+    border: 1px solid #457b9d; 
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #e9ecef;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    font-family: 'Tajawal', sans-serif;
+    color: #2c3e50;
+}
+
+.position-relative{
+    background-color: #d6edee;
+}
+
+.display-4 {
+    font-size: 3rem; 
+    font-weight: bold;
+    color: #1d3557; 
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.form-text.error {
+    color: #e63946;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.container {
+    background: linear-gradient(135deg, #f1faee, #a8dadc);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary {
+    background-color: #457b9d;
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #1d3557;
+    color: white;
+}
+
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #457b9d;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.modal-content {
+    border-radius: 10px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header{
+    background-color: #d2dceb;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1d3557;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal-body.text-center {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: #d2dceb;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.winner-name {
+    font-size: 22px;
+    font-weight: bold;
+    color: #0b116b;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
